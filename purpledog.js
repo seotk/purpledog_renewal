@@ -16,20 +16,20 @@ var swiper1 = new Swiper(".wine_collection", {
   },
   breakpoints: {
     // 화면의 넓이가 320px 이상일 때
-    390: {
+    800: {
       slidesPerView: 1,
-      spaceBetween: 5
+      spaceBetween: 0
     },
     // 화면의 넓이가 640px 이상일 때
-    640: {
+    990: {
       slidesPerView: 2,
-      spaceBetween: 25
+      spaceBetween: 100,
     },
-    960: {
+    1360: {
       slidesPerView: 3,
-      spaceBetween: 25,
+      spaceBetween: 10,
     },
-    1440: {
+    1480: {
       slidesPerView: 4,
       spaceBetween: 20,
     }
@@ -53,26 +53,26 @@ var swiper2 = new Swiper(".review_slide", {
   breakpoints: {
     // 화면의 넓이가 320px 이상일 때
     390: {
-      slidesPerView: 1,
-      spaceBetween: 5
+      slidesPerView: 2,
+      spaceBetween: 5,
     },
     // 화면의 넓이가 640px 이상일 때
-    640: {
+    800: {
       slidesPerView: 2,
-      spaceBetween: 25
+      spaceBetween: 15,
     },
     960: {
       slidesPerView: 3,
-      spaceBetween: 15
+      spaceBetween: 15,
     },
   }
 });
 var swiper3 = new Swiper(".slide_banner", {
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
