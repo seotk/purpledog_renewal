@@ -42,7 +42,7 @@
                 </ul>
               </li>
               <li><a href="#">회사소개</a>
-                <ul class="sub_list">
+                <ul class="sub_list">lo
                   <li><a href="#">ABOUT</a></li>
                   <li><a href="#">스토어</a></li>
                 </ul>
@@ -57,14 +57,67 @@
             </ul>
           </div>
           <div class="icon_nav">
-            <i class="fa-solid fa-magnifying-glass" title="돋보기"></i>
+            <i class="fa-solid fa-magnifying-glass open_search" title="돋보기"></i>
             <i class="fa-solid fa-bag-shopping" title="장바구니"></i>
             <i class="fa-solid fa-user" title="내정보"></i>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars open_bar" title ="bar"></i>
           </div>
         </nav>
     </div>
+    <div class="search_modal_con">
+      <div class="search_modal">
+        <input class="main_search" type="text" style="color: white;" placeholder="검색어를 입력하세요.">
+        <div class="close_search"><i class="fa-solid fa-x close"></i></div>
+      </div>
+    </div>
   </header>
+  <div class="gnb_m_con">
+    <div class="gnb_m">
+      <ul class="gnb_list">
+        <li><a href=" #">정기구독</a>
+          <ul class="sub_list">
+            <li><a href="#">구독소개</a></li>
+            <li><a href="#">구독방법</a></li>
+            <li><a href="#">와인 피드백</a></li>
+          </ul>
+        </li>
+        <li><a href="#">와인</a>
+          <ul class="sub_list">
+            <li><a href="#">와인별</a></li>
+            <li><a href="#">국가별</a></li>
+            <li><a href="#">추천상품</a></li>
+          </ul>
+        </li>
+        <li><a href="#">커뮤니티</a>
+          <ul class="sub_list">
+            <li><a href="#">리뷰</a></li>
+            <li><a href="#">매거진</a></li>
+            <li><a href="#">공지 및 이벤트</a></li>
+          </ul>
+        </li>
+        <li><a href="#">회사소개</a>
+          <ul class="sub_list">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">스토어</a></li>
+          </ul>
+        </li>
+        <li><a href="#">문의</a>
+          <ul class="sub_list">
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">B2B 문의</a></li>
+            <li><a href="#">가맹 문의</a></li>
+          </ul>
+        </li>
+        <li><a href="#">내정보</a>
+          <ul class="sub_list">
+            <li><a href="#">내정보</a></li>
+            <li><a href="#">장바구니</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="close_bar"><i class="fa-solid fa-x close"></i></div>
+    </div>
+  </div>
   <div class="main_banner_wrap">
     <div class="fix_banner_con">
       <a class="fix_banner" href="#">
@@ -110,7 +163,9 @@
             <div class="swiper-slide slide_banner4">
               <img src="./imges/main_slide_banner_menu.png" alt="">
               <span>나만의 퍼플독
-                구독 상품을 &nbsp; 선택하세요!</span>
+                구독 상품을 &nbsp; 선택하세요!
+              </span>
+              <button><span>정기 구독 신청하기</span></button>
             </div>
           </div>
           <div class="swiper-button-next slide_banner_next"><i class="fa-solid fa-chevron-right"></i>
@@ -330,10 +385,10 @@
           </div>
         </div>
       </div>
+      <div class="swiper-pagination wine_pg"></div>
     </div>
     <div class="swiper-button-next wine_next"></div>
     <div class="swiper-button-prev wine_prev"></div>
-    <div class="swiper-pagination wine_pg"></div>
   </div>
   <div class="wine_category_wrap">
     <h2>WINE CATEGORY</h2>
@@ -672,18 +727,19 @@
     </div>
   </div>
   <div class="end_banner_wrap">
-    <a href="#">
       <div class="end_banner">
         <p>
           <strong>PURPLEDOG</strong>
           <span>원하는 와인을 찾아보세요!</span>
+          <a href="#"></a>
         </p>
-        <div class="docent_search">
+        <div class="docent">
           <img src="./imges/docent.png" alt="구독 구성품">
-          <div><i></i><span>search</span></div>
+          <div>
+            <input class="docent_search" type="text" placeholder=" &#128269; search">
+          </div>
         </div>
       </div>
-    </a>
   </div>
   <footer>
     <div class="max_footer">
