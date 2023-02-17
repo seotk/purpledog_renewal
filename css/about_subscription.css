@@ -1,0 +1,245 @@
+@charset 'utf-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+
+:root {
+  --main_c1: #45156e;
+  --main_c2: #c2b0e1;
+  --main_c3: #f9f2fe;
+  --main_c4: #c6c6c6;
+  --mw: 1440px;
+  --gap1: 16px;
+  --gap2: 8px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+body img {
+  width: 100%;
+}
+.mw {
+  max-width: var(--mw);
+  margin: auto;
+  width: calc(100% - 2rem);
+}
+.mw2 {
+  background-color: var(--main_c1);
+  color: white;
+}
+
+.fix_button {
+  position: fixed;
+  right: 8%;
+  top: 60px;
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: var(--main_c1);
+  transition: 0.5s;
+  z-index: 1001;
+}
+.fix_button a {
+  width: 100%;
+  height: 100%;
+}
+.fix_button > a > span {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  padding-right: 25px;
+  position: relative;
+}
+.fix_button > a > span::after {
+  content: ">";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: x-large;
+}
+.fix_button:hover {
+  background-color: white;
+}
+.fix_button:hover.fix_button > a > span {
+  color: var(--main_c1);
+}
+/* ========================== main BANNER ============================*/
+.main_banner_con {
+  background-image: url(../imges/About_subscription/main_banner_con_bg.png);
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 99px;
+  background-size: cover;
+  height: 700px;
+}
+.main_banner {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 700px;
+  display: flex;
+  position: relative;
+}
+.main_banner_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin: 75px 135px 0 135px;
+  text-align: center;
+}
+.main_banner_content span:nth-of-type(1) {
+  font-size: 25px;
+  font-weight: 400;
+}
+.main_banner_content span:nth-of-type(1) > strong {
+  font-weight: 700;
+}
+.main_banner_content span:nth-of-type(2) {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 118px;
+  color: black;
+  -webkit-text-stroke: 2px white;
+  padding-top: 30px;
+}
+.main_banner_content span:nth-of-type(3) {
+  font-size: 80px;
+  font-weight: 500;
+  word-break: keep-all;
+}
+.main_banner_content span:nth-of-type(4) {
+  font-size: 18px;
+  font-weight: 300;
+  flex-grow: 1;
+  padding-top: 60px;
+}
+.main_banner_img {
+  position: absolute;
+  width: 50%;
+  height: 140%;
+  right: 0%;
+  /* margin-top: 200px;
+  margin-left: 200px; */
+}
+
+.section_list > section {
+  height: 500px;
+}
+.section_list > .mw2 {
+  height: 600px;
+}
+.checkpoint {
+  margin-top: 100px;
+}
+.checkpoint h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.checkpoint h3 {
+  font-size: 45px;
+  font-weight: 300;
+  padding-top: 16px;
+}
+.sec_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec_content span {
+  width: 40%;
+  font-size: 30px;
+  font-weight: 100;
+}
+.sec_content img {
+  width: 40%;
+}
+.sec_deteil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.mw2 .checkpoint2 {
+  padding-top: 100px;
+}
+.checkpoint2 h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.checkpoint2 h3 {
+  font-size: 45px;
+  font-weight: 300;
+  padding-top: 16px;
+}
+@media (max-width: 880px) {
+  .main_banner_con {
+    height: 600px;
+  }
+  .main_banner {
+    display: block;
+  }
+  .main_banner_content {
+    margin: 0;
+    margin-top: 55px;
+  }
+  .main_banner_content span:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .main_banner_content span:nth-of-type(2) {
+    font-size: 45px;
+  }
+  .main_banner_content span:nth-of-type(3) {
+    font-size: 45px;
+  }
+  .main_banner_content span:nth-of-type(4) {
+    font-size: 16px;
+  }
+  .main_banner_img {
+    display: none;
+  }
+  .sec_content {
+    display: block;
+  }
+  .checkpoint h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .checkpoint h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 16px;
+  }
+  .sec_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .sec_content span {
+    width: 40%;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .sec_content img {
+    width: 40%;
+  }
+  .sec_deteil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .mw2 .checkpoint2 {
+    padding-top: 100px;
+  }
+  .checkpoint2 h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .checkpoint2 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 16px;
+  }
+}

@@ -5,198 +5,126 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/my_reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/header1.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
   <script  src="./purpledog.js" defer></script>
 </head>
 <body>
-  <header class="hd">
-    <div class="max_header">
-        <nav class="main_nav">
-          <a href="#" class="logo"><img src="./imges/purpledog_logo.png" alt="logo">
-          </a>
-          <div class="gnb">
-            <ul class="gnb_list">
-              <li><a href=" #">정기구독</a>
-                <ul class="sub_list">
-                  <li><a href="#">구독소개</a></li>
-                  <li><a href="#">구독방법</a></li>
-                  <li><a href="#">와인 피드백</a></li>
-                </ul>
-              </li>
-              <li><a href="#">와인</a>
-                <ul class="sub_list">
-                  <li><a href="#">와인별</a></li>
-                  <li><a href="#">국가별</a></li>
-                  <li><a href="#">추천상품</a></li>
-                </ul>
-              </li>
-              <li><a href="#">커뮤니티</a>
-                <ul class="sub_list">
-                  <li><a href="#">리뷰</a></li>
-                  <li><a href="#">매거진</a></li>
-                  <li><a href="#">공지 및 이벤트</a></li>
-                </ul>
-              </li>
-              <li><a href="#">회사소개</a>
-                <ul class="sub_list">lo
-                  <li><a href="#">ABOUT</a></li>
-                  <li><a href="#">스토어</a></li>
-                </ul>
-              </li>
-              <li><a href="#">문의</a>
-                <ul class="sub_list">
-                  <li><a href="#">고객센터</a></li>
-                  <li><a href="#">B2B 문의</a></li>
-                  <li><a href="#">가맹 문의</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="icon_nav">
-            <i class="fa-solid fa-magnifying-glass open_search" title="돋보기"></i>
-            <i class="fa-solid fa-bag-shopping" title="장바구니"></i>
-            <i class="fa-solid fa-user" title="내정보"></i>
-            <i class="fa-solid fa-bars open_bar" title ="bar"></i>
-          </div>
-        </nav>
-    </div>
-    <div class="search_modal_con">
-      <div class="search_modal">
-        <input class="main_search" type="text" style="color: white;" placeholder="검색어를 입력하세요.">
-        <div class="close_search"><i class="fa-solid fa-x close"></i></div>
+  <div class="wrap">
+    <header class="hd">
+      <div class="max_header">
+          <nav class="main_nav">
+            <a href="./index.html" class="logo"><img src="./imges/purpledog_logo.png" alt="logo">
+            </a>
+            <div class="gnb">
+              <!-- gnb_list -->
+            </div>
+            <div class="icon_nav">
+              <i class="fa-solid fa-magnifying-glass open_search" title="돋보기"></i>
+              <i class="fa-solid fa-bag-shopping" title="장바구니"></i>
+              <i class="fa-solid fa-user" title="내정보"></i>
+              <i class="fa-solid fa-bars open_bar" title ="bar"></i>
+            </div>
+          </nav>
+      </div>
+      <div class="search_modal_con">
+        <div class="search_modal">
+          <input class="main_search" type="text" style="color: white;" placeholder="검색어를 입력하세요.">
+          <div class="close_search"><i class="fa-solid fa-x close"></i></div>
+        </div>
+      </div>
+    </header>
+    <div class="gnb_m_con">
+      <div class="gnb_m">
+        <!-- gnb_list -->
+      </div>
+      <div class="close_bar">
+        <i class="fa-solid fa-x close"></i>
       </div>
     </div>
-  </header>
-  <div class="gnb_m_con">
-    <div class="gnb_m">
-      <ul class="gnb_list">
-        <li><a href=" #">정기구독</a>
-          <ul class="sub_list">
-            <li><a href="#">구독소개</a></li>
-            <li><a href="#">구독방법</a></li>
-            <li><a href="#">와인 피드백</a></li>
-          </ul>
-        </li>
-        <li><a href="#">와인</a>
-          <ul class="sub_list">
-            <li><a href="#">와인별</a></li>
-            <li><a href="#">국가별</a></li>
-            <li><a href="#">추천상품</a></li>
-          </ul>
-        </li>
-        <li><a href="#">커뮤니티</a>
-          <ul class="sub_list">
-            <li><a href="#">리뷰</a></li>
-            <li><a href="#">매거진</a></li>
-            <li><a href="#">공지 및 이벤트</a></li>
-          </ul>
-        </li>
-        <li><a href="#">회사소개</a>
-          <ul class="sub_list">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">스토어</a></li>
-          </ul>
-        </li>
-        <li><a href="#">문의</a>
-          <ul class="sub_list">
-            <li><a href="#">고객센터</a></li>
-            <li><a href="#">B2B 문의</a></li>
-            <li><a href="#">가맹 문의</a></li>
-          </ul>
-        </li>
-        <li><a href="#">내정보</a>
-          <ul class="sub_list">
-            <li><a href="#">내정보</a></li>
-            <li><a href="#">장바구니</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div class="close_bar"><i class="fa-solid fa-x close"></i></div>
-    </div>
-  </div>
-  <div class="main_banner_wrap">
-    <div class="fix_banner_con">
-      <a class="fix_banner" href="#">
-        <span>PURPLEDOG</span>
-        <strong>와인 정기 구독 서비스</strong>
-        <button><span>자세히 보기</span></button>
-        <img src="./imges/sub_fix_banner_wine.png" alt="고정배너 와인">
-      </a>
-    </div>
-    <article class="slide_banner_con">
-        <div class="swiper slide_banner">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slide_banner1">
-              <div class="word_space">
-                <span class="eng">The 1st no.1 wine subscription service</span>
-                <strong>국내 최초 와인 정기 구독 서비스</strong>
-                <p class="detail">매월 새로운 맞춤와인과 컨텐츠를 택배로 받아 보는 서비스
-                합리적인 비용으로 online for offline 서비스 제공 와인&nbsp;정기 구독으로 자신만의 라이프스타일을 즐겨보세요!</p>
-              </div>
-              <button><span>정기 구독 신청하기</span></button>
-              <img src="./imges/main_slide_banner_wine.png" alt="메인 슬라이드 배너 1 와인 사진">
-            </div>
-            <div class="swiper-slide slide_banner2">
-              <div class="word_space">
-                <span class="eng">Purpledog AI-based custom wine solution</span>
-                <strong>퍼플독 AI 기반 맞춤 와인 솔루션</strong>
-                <p class="detail">퍼플독 자체 개발 AI 시스템을 통해 지속적 취향 반영과 데이터를 매칭해 
-                  와인을 선정, 배정하고 취향에 맞는 와인을 추천해드립니다!</p>
-              </div>
-              <button><span>정기 구독 신청하기</span></button>
-              <img src="./imges/main_slide_banner_model1.png" alt="메인 슬라이드 배너 2 모델 사진">
-            </div>
-            <div class="swiper-slide slide_banner3">
-              <div class="word_space">
-                <span class="eng">Purpledog AI-based custom wine solution</span>
-                <strong>퍼플독 AI 기반 맞춤 와인 솔루션</strong>
-                <p class="detail">퍼플독 자체 개발 AI 시스템을 통해 지속적 취향 반영과 데이터를 매칭해 
-                  와인을 선정, 배정하고 취향에 맞는 와인을 추천해드립니다!</p>
-              </div>
-              <button><span>정기 구독 신청하기</span></button>
-              <img src="./imges/main_slide_banner_model2.png" alt="메인 슬라이드 배너 1 와인 사진">
-            </div>
-            <div class="swiper-slide slide_banner4">
-              <img src="./imges/main_slide_banner_menu.png" alt="">
-              <span>나만의 퍼플독
-                구독 상품을 &nbsp; 선택하세요!
-              </span>
-              <button><span>정기 구독 신청하기</span></button>
-            </div>
-          </div>
-          <div class="swiper-button-next slide_banner_next"><i class="fa-solid fa-chevron-right"></i>
-          </div>
-          <div class="swiper-button-prev slide_banner_prev"><i class="fa-solid fa-chevron-left"></i>
-          </div>
-          <!-- <li>
-            <div class="slide_banner1">
-              <div class="word_space">
-                <span class="eng">The 1st no.1 wine subscription service</span>
-                <strong>국내 최초 와인 정기 구독 서비스</strong>
-                <p class="detail">매월 새로운 맞춤와인과 컨텐츠를 택배로 받아 보는 서비스
-                  합리적인 비용으로 online for offline 서비스 제공 와인정기 구독으로 자신만의 라이프스타일을 즐겨보세요!</p>
+    <div class="main_banner_wrap mw">
+      <div class="fix_banner_con">
+        <a class="fix_banner" href="./about_subscription.html">
+          <span>PURPLEDOG</span>
+          <strong>와인 정기 구독 서비스</strong>
+          <button>
+              <span>자세히 보기</span>
+          </button>
+          <img src="./imges/sub_fix_banner_wine.png" alt="고정배너 와인">
+        </a>
+      </div>
+      <article class="slide_banner_con">
+          <div class="swiper slide_banner">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide_banner1">
+                <div class="word_space">
+                  <span class="eng">The 1st no.1 wine subscription service</span>
+                  <strong>국내 최초 와인 정기 구독 서비스</strong>
+                  <p class="detail">매월 새로운 맞춤와인과 컨텐츠를 택배로 받아 보는 서비스
+                  합리적인 비용으로 online for offline 서비스 제공 와인&nbsp;정기 구독으로 자신만의 라이프스타일을 즐겨보세요!</p>
                 </div>
-                <button><span>정기 구독 신청하기</span></button>
-                <img src="./imges/메인 슬라이드 배너 1 와인.png" alt="메인 슬라이드 배너 1 와인 사진">
-              </div>  
-            </li> -->
-          </div>
-          <div class="swiper-pagination slide_banner_pg"></div>
-    </article>
-  </div>
-  <div class="wine_recommend_wrap">
-    <h2>RECOMMEND WINE by AI</h2>
-    <div class="swiper wine_collection">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+                <button><a href="./subscription_01.html"><span>정기 구독 신청하기</span></a></button>
+                <img src="./imges/main_slide_banner_wine.png" alt="메인 슬라이드 배너 1 와인 사진">
+              </div>
+              <div class="swiper-slide slide_banner2">
+                <div class="word_space">
+                  <span class="eng">Purpledog AI-based custom wine solution</span>
+                  <strong>퍼플독 AI 기반 맞춤 와인 솔루션</strong>
+                  <p class="detail">퍼플독 자체 개발 AI 시스템을 통해 지속적 취향 반영과 데이터를 매칭해
+                    와인을 선정, 배정하고 취향에 맞는 와인을 추천해드립니다!</p>
+                </div>
+                <button><a href="./subscription_01.html"><span>정기 구독 신청하기</span></a></button>
+                <img src="./imges/main_slide_banner_model1.png" alt="메인 슬라이드 배너 2 모델 사진">
+              </div>
+              <div class="swiper-slide slide_banner3">
+                <div class="word_space">
+                  <span class="eng"># 오감 체험형 store</span>
+                  <strong>퍼플독 스토어(purpledog Store)</strong>
+                  <p class="detail">퍼플독 스토어는 와인을 직접 맛보고(Taste) 느끼고(Touch) 
+                    향을 맡고(Smell) 와인에 대해 듣고(Listen) 읽는(Read) 공간입니다</p>
+                </div>
+                <button><a href="./subscription_01.html"><span>정기 구독 신청하기</span></a></button>
+                <img src="./imges/main_slide_banner_model2.png" alt="메인 슬라이드 배너 1 와인 사진">
+              </div>
+              <div class="swiper-slide slide_banner4">
+                <img src="./imges/main_slide_banner_menu.png" alt="">
+                <span>나만의 퍼플독
+                  구독 상품을 &nbsp; 선택하세요!
+                </span>
+                <button><a href="./subscription_01.html"><span>정기 구독 신청하기</span></a></button>
+              </div>
+            </div>
+            <div class="swiper-button-next slide_banner_next"><i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev slide_banner_prev"><i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <!-- <li>
+              <div class="slide_banner1">
+                <div class="word_space">
+                  <span class="eng">The 1st no.1 wine subscription service</span>
+                  <strong>국내 최초 와인 정기 구독 서비스</strong>
+                  <p class="detail">매월 새로운 맞춤와인과 컨텐츠를 택배로 받아 보는 서비스
+                    합리적인 비용으로 online for offline 서비스 제공 와인정기 구독으로 자신만의 라이프스타일을 즐겨보세요!</p>
+                  </div>
+                  <button><span>정기 구독 신청하기</span></button>
+                  <img src="./imges/메인 슬라이드 배너 1 와인.png" alt="메인 슬라이드 배너 1 와인 사진">
+                </div>
+              </li> -->
+            </div>
+            <div class="swiper-pagination slide_banner_pg"></div>
+      </article>
+    </div>
+    <div class="wine_recommend_wrap mw">
+      <h2 class="head2">RECOMMEND WINE by AI</h2>
+      <div class="swiper wine_collection">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/yellow.png" alt="yellow">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
                 <img class="wine" src="./imges/ruci.png" alt="루시앙">
               </div>
               <div class="wine_deteil">
@@ -215,17 +143,15 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/green.png" alt="green">
+                <img class="tokken" src="./imges/green.png" alt="green">
                 <img class="wine" src="./imges/vodega.png" alt="보데가">
               </div>
               <div class="wine_deteil">
                 <span>스페인 / 로제</span>
-                <p><strong>보데가 드 모야 몰라 로제</strong></p>
+                <p><strong>보데가 드 모야 몰라 로제 </strong></p>
                 <div class="wine_grap">
                   <span>바디</span>
                   <span class="p60"></span>
@@ -239,22 +165,20 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/blue.png" alt="blue">
-                <img class="wine" src="./imges/marani.png" alt="마라니">
+                <img class="tokken" src="./imges/blue.png" alt="blue">
+                <img class="wine" src="./imges/marani.png" alt="마라니 ">
               </div>
               <div class="wine_deteil">
                 <span>프랑스 / 화이트</span>
-                <p><strong>마라니 사트라페조 아이스 와인 까르베네 </strong></p>
+                <p><strong>마라니 사트라페조 아이스 와인 까르베네</strong></p>
                 <div class="wine_grap">
                   <span>바디</span>
-                  <span class="p60"></span>
-                  <span>산도</span>
                   <span class="p75"></span>
+                  <span>산도</span>
+                  <span class="p80"></span>
                   <span>당도</span>
                   <span class="p90"></span>
                   <span>타닌</span>
@@ -263,17 +187,15 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/crimson.png" alt="crimson">
+                <img class="tokken" src="./imges/crimson.png" alt="crimson">
                 <img class="wine" src="./imges/champagne.png" alt="쌍파뉴">
               </div>
               <div class="wine_deteil">
                 <span>프랑스 / 스파클링</span>
-                <p><strong>쌍파뉴 델리아이에 로제 </strong></p>
+                <p><strong>쌍파뉴 델리아이에 로제</strong></p>
                 <div class="wine_grap">
                   <span>바디</span>
                   <span class="p80"></span>
@@ -287,12 +209,10 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/yellow.png" alt="yellow">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
                 <img class="wine" src="./imges/ruci.png" alt="루시앙">
               </div>
               <div class="wine_deteil">
@@ -311,74 +231,90 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/green.png" alt="green">
-                <img class="wine" src="./imges/vodega.png" alt="보데가">
-              </div>
-              <div class="wine_deteil">
-                <span>스페인 / 로제</span>
-                <p><strong>보데가 드 모야 몰라 로제</strong></p>
-                <div class="wine_grap">
-                  <span>바디</span>
-                  <span class="p60"></span>
-                  <span>산도</span>
-                  <span class="p60"></span>
-                  <span>당도</span>
-                  <span class="p25"></span>
-                  <span>타닌</span>
-                  <span class="p45"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
-              <div class="wine_img">
-                <img class="yellow" src="./imges/blue.png" alt="blue">
-                <img class="wine" src="./imges/marani.png" alt="마라니">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
+                <img class="wine" src="./imges/ruci.png" alt="루시앙">
               </div>
               <div class="wine_deteil">
                 <span>프랑스 / 화이트</span>
-                <p><strong>마라니 사트라페조 아이스 와인 까르베네 </strong></p>
+                <p><strong>루시앙 알브레히트 알자스 뮈스까 리저브 </strong></p>
                 <div class="wine_grap">
                   <span>바디</span>
                   <span class="p60"></span>
                   <span>산도</span>
-                  <span class="p75"></span>
+                  <span class="p60"></span>
                   <span>당도</span>
-                  <span class="p90"></span>
+                  <span class="p25"></span>
                   <span>타닌</span>
-                  <span class="p45"></span>
+                  <span class="p0"></span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="product">
-            <div class="wine_card">
+          <div class="swiper-slide">
+            <div class="product">
               <div class="wine_img">
-                <img class="yellow" src="./imges/crimson.png" alt="crimson">
-                <img class="wine" src="./imges/champagne.png" alt="쌍파뉴">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
+                <img class="wine" src="./imges/ruci.png" alt="루시앙">
               </div>
               <div class="wine_deteil">
-                <span>프랑스 / 스파클링</span>
-                <p><strong>쌍파뉴 델리아이에 로제 </strong></p>
+                <span>프랑스 / 화이트</span>
+                <p><strong>루시앙 알브레히트 알자스 뮈스까 리저브 </strong></p>
                 <div class="wine_grap">
                   <span>바디</span>
-                  <span class="p80"></span>
+                  <span class="p60"></span>
                   <span>산도</span>
-                  <span class="p90"></span>
+                  <span class="p60"></span>
                   <span>당도</span>
                   <span class="p25"></span>
-                  <span>버블</span>
-                  <span class="p100"></span>
+                  <span>타닌</span>
+                  <span class="p0"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="wine_img">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
+                <img class="wine" src="./imges/ruci.png" alt="루시앙">
+              </div>
+              <div class="wine_deteil">
+                <span>프랑스 / 화이트</span>
+                <p><strong>루시앙 알브레히트 알자스 뮈스까 리저브 </strong></p>
+                <div class="wine_grap">
+                  <span>바디</span>
+                  <span class="p60"></span>
+                  <span>산도</span>
+                  <span class="p60"></span>
+                  <span>당도</span>
+                  <span class="p25"></span>
+                  <span>타닌</span>
+                  <span class="p0"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="wine_img">
+                <img class="tokken" src="./imges/yellow.png" alt="yellow">
+                <img class="wine" src="./imges/ruci.png" alt="루시앙">
+              </div>
+              <div class="wine_deteil">
+                <span>프랑스 / 화이트</span>
+                <p><strong>루시앙 알브레히트 알자스 뮈스까 리저브 </strong></p>
+                <div class="wine_grap">
+                  <span>바디</span>
+                  <span class="p60"></span>
+                  <span>산도</span>
+                  <span class="p60"></span>
+                  <span>당도</span>
+                  <span class="p25"></span>
+                  <span>타닌</span>
+                  <span class="p0"></span>
                 </div>
               </div>
             </div>
@@ -386,198 +322,288 @@
         </div>
       </div>
       <div class="swiper-pagination wine_pg"></div>
+      <div class="swiper-button-next wine_next"></div>
+      <div class="swiper-button-prev wine_prev"></div>
     </div>
-    <div class="swiper-button-next wine_next"></div>
-    <div class="swiper-button-prev wine_prev"></div>
-  </div>
-  <div class="wine_category_wrap">
-    <h2>WINE CATEGORY</h2>
-    <img class="plus" src="./imges/plus-solid.svg" alt="plus">
-    <section class="wine_category">
-      <div class="wine_con">
-        <strong>국가별 모아보기</strong>
-        <span>지역에 따라 맛과 특징이 다른 와인을 살펴보세요</span>
-        <div class="btn_group">
-          <button><span>프랑스</span></button>
-          <button><span>이탈리아</span</button>
-          <button><span>미국</span></button>
-          <button><span>포르투갈</span></button>
-          <button><span>호주</span></button>
-          <button><span>스페인</span></button>
+    <div class="wine_category_wrap mw">
+      <h2 class="head2">WINE CATEGORY</h2>
+      <img class="plus" src="./imges/plus-solid.svg" alt="plus">
+      <section class="wine_category">
+        <div class="wine_con">
+          <strong>국가별 모아보기</strong>
+          <span>지역에 따라 맛과 특징이 다른 와인을 살펴보세요</span>
+          <div class="btn_group">
+            <button><span>프랑스</span></button>
+            <button><span>이탈리아</span</button>
+            <button><span>미국</span></button>
+            <button><span>포르투갈</span></button>
+            <button><span>호주</span></button>
+            <button><span>스페인</span></button>
+          </div>
         </div>
-      </div>
-      <div class="wine_wine">
-        <strong>와인별 모아보기</strong>
-        <span>선호하는 와인을 취향별로 살펴보세요</span>
-        <div class="btn_group">
-          <button><span>레드와인</span</button>
-          <button><span>화이트 와인</span></button>
-          <button><span>스파클링</span></button>
-          <button><span>로제와인</span></button>
-          <button><span>주정강화</span</button>
-          <button><span>제로와인</span></button>
+        <div class="wine_wine">
+          <strong>와인별 모아보기</strong>
+          <span>선호하는 와인을 취향별로 살펴보세요</span>
+          <div class="btn_group">
+            <button><span>레드와인</span</button>
+            <button><span>화이트 와인</span></button>
+            <button><span>스파클링</span></button>
+            <button><span>로제와인</span></button>
+            <button><span>주정강화</span</button>
+            <button><span>제로와인</span></button>
+          </div>
         </div>
-      </div>
-    </section>
-
-  </div>
-  <div class="mid_banner_wrap">
-    <a href="#">
-      <div class="mid_banner">
-        <p>
-          <strong>PURPLEDOG</strong>
-          <span>다양한 와인을 즐길 수 있는 기회</span>
-        </p>
-        <img src="./imges/midbanner.png" alt="구독 구성품">
-      </div>
-    </a>
-  </div>
-  <div class="review_wrap">
-    <h2>BEST REVIEW</h2>
-    <img class="plus" src="./imges/plus-solid.svg" alt="plus">
-    <div class="swiper review_slide">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide reveiw_1">
-          <div class="front">
-            <img src="./imges/review1.png" alt="리뷰 1">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href="#"></a>
-        </div>
-        <div class="swiper-slide reveiw_2">
-          <div class="front">
-            <img src="./imges/review2.png" alt="리뷰 2">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href="#"></a>
-        </div>
-        <div class="swiper-slide reveiw_3">
-          <div class="front">
-            <img src="./imges/review3.png" alt="리뷰 3">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href="#"></a>
-        </div>
-        <div class="swiper-slide reveiw_1">
-          <div class="front">
-            <img src="./imges/review1.png" alt="리뷰 1">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href=""></a>
-        </div>
-        <div class="swiper-slide reveiw_2">
-          <div class="front">
-            <img src="./imges/review2.png" alt="리뷰 2">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href=""></a>
-        </div>
-        <div class="swiper-slide reveiw_3">
-          <div class="front">
-            <img src="./imges/review3.png" alt="리뷰 3">
-          </div>
-          <div class="back">
-            <div class="review_deteil">
-              <span class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span class="review_title">퍼플독에서가장 좋아하는 와인 입니다.</span>
-              <span class="review_name">
-                제**** 님의 후기
-              </span>
-            </div>
-          </div>
-          <a href="#"></a>
-        </div>
-      </div>
+      </section>
     </div>
-    <div class="swiper-button-prev review_prev"></div>
-    <div class="swiper-button-next review_next"></div>
-    <div class="swiper-pagination review_pg"></div>
-  </div>
-  <div class="magazine_wrap">
-    <div class="magazine">
-      <img class="plus" src="./imges/plus-solid_white.svg" alt="plus">
-      <h2>MAGAZINE</h2>
-      <div class="magazine_contents">
-        <div class="min1">
-          <div class="swiper card_slide_list">
-            <ul class="swiper-wrapper">
-              <li class="swiper-slide card_slide">
+    <div class="mid_banner_wrap">
+      <a href="./about_subscription.html">
+        <div class="mid_banner mw">
+          <p>
+            <strong>PURPLEDOG</strong>
+            <span>다양한 와인을 즐길 수 있는 기회</span>
+          </p>
+          <img src="./imges/midbanner.png" alt="구독 구성품">
+        </div>
+      </a>
+    </div>
+    <div class="review_wrap mw">
+      <h2 class="head2">BEST REVIEW</h2>
+      <img class="plus" src="./imges/plus-solid.svg" alt="plus">
+      <div class="swiper review_slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide reveiw_1">
+            <div class="front">
+              <img src="./imges/review1.png" alt="리뷰 1">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href="#"></a>
+          </div>
+          <div class="swiper-slide reveiw_2">
+            <div class="front">
+              <img src="./imges/review2.png" alt="리뷰 2">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href="#"></a>
+          </div>
+          <div class="swiper-slide reveiw_3">
+            <div class="front">
+              <img src="./imges/review3.png" alt="리뷰 3">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href="#"></a>
+          </div>
+          <div class="swiper-slide reveiw_1">
+            <div class="front">
+              <img src="./imges/review1.png" alt="리뷰 1">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href=""></a>
+          </div>
+          <div class="swiper-slide reveiw_2">
+            <div class="front">
+              <img src="./imges/review2.png" alt="리뷰 2">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href=""></a>
+          </div>
+          <div class="swiper-slide reveiw_3">
+            <div class="front">
+              <img src="./imges/review3.png" alt="리뷰 3">
+            </div>
+            <div class="back">
+              <div class="review_deteil">
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review_title">식 트랜짓 글로리아 먼디</span>
+                <span class="review_content">퍼플독에서가장 좋아하는 와인 입니다.</span>
+                <span class="review_name">
+                  제**** 님의 후기
+                </span>
+              </div>
+            </div>
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev review_prev"></div>
+      <div class="swiper-button-next review_next"></div>
+      <div class="swiper-pagination review_pg"></div>
+    </div>
+    <div class="magazine_wrap">
+      <div class="magazine mw">
+        <img class="plus" src="./imges/plus-solid_white.svg" alt="plus">
+        <h2>MAGAZINE</h2>
+        <div class="magazine_contents">
+          <div class="min1">
+            <div class="swiper card_slide_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide card_slide">
+                    <div class="card_detail card28">
+                      <div class="card_img">
+                      </div>
+                      <p class="card_dec">
+                        <span> vol.28 신의 축복이</span> <br>
+                        <span> 내린 땅, 부르고 뉴</span>
+                      </p>
+                      <p class="card_hash">
+                        <span>#부르고뉴 #보졸레누보 <br>
+                          #피노누아 #가메  <br>
+                          #샤블리 #고급와인</span>
+                      </p>
+                    </div>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card27">
+                    <div class="card_img">
+                    </div>
+                    <p class="card_dec">
+                      <span> vol.27 프랑스의</span> <br>
+                      <span> 귀족산지, 보르도</span>
+                    </p>
+                    <p class="card_hash">
+                      <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card26">
+                    <div class="card_img">
+                    </div>
+                    <p class="card_dec">
+                      <span> vol.26 칠레 와인의</span> <br>
+                      <span> 역사</span>
+                    </p>
+                    <p class="card_hash">
+                      <span>#칠레 #까르미네르 <br>
+                        #코스타존 #안데스산맥</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail">
+                    <div class="card_detail card28">
+                      <div class="card_img">
+                      </div>
+                      <p class="card_dec">
+                        <span> vol.28 신의 축복이</span> <br>
+                        <span> 내린 땅, 부르고 뉴</span>
+                      </p>
+                      <p class="card_hash">
+                        <span>#부르고뉴 #보졸레누보 <br>
+                          #피노누아 #가메  <br>
+                          #샤블리 #고급와인</span>
+                      </p>
+                    </div>
+                </li>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card27">
+                    <div class="card_img">
+                    </div>
+                    <p class="card_dec">
+                      <span> vol.27 프랑스의</span> <br>
+                      <span> 귀족산지, 보르도</span>
+                    </p>
+                    <p class="card_hash">
+                      <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card26">
+                    <div class="card_img">
+                    </div>
+                    <p class="card_dec">
+                      <span> vol.26 칠레 와인의</span> <br>
+                      <span> 역사</span>
+                    </p>
+                    <p class="card_hash">
+                      <span>#칠레 #까르미네르 <br>
+                        #코스타존 #안데스산맥</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="swiper-slide card_slide">
                   <div class="card_detail card28">
                     <div class="card_img">
                     </div>
@@ -586,184 +612,99 @@
                       <span> 내린 땅, 부르고 뉴</span>
                     </p>
                     <p class="card_hash">
-                      <span>#부르고뉴 #보졸레누보 <br> 
+                      <span>#부르고뉴 #보졸레누보 <br>
                         #피노누아 #가메  <br>
                         #샤블리 #고급와인</span>
                     </p>
                   </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card27">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.27 프랑스의</span> <br>
-                    <span> 귀족산지, 보르도</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
-                  </p>
-                </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card26">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.26 칠레 와인의</span> <br>
-                    <span> 역사</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#칠레 #까르미네르 <br> 
-                      #코스타존 #안데스산맥</span>
-                  </p>
-                </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail">
-                  <div class="card_detail card28">
+                </li>
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card27">
                     <div class="card_img">
                     </div>
                     <p class="card_dec">
-                      <span> vol.28 신의 축복이</span> <br>
-                      <span> 내린 땅, 부르고 뉴</span>
+                      <span> vol.27 프랑스의</span> <br>
+                      <span> 귀족산지, 보르도</span>
                     </p>
                     <p class="card_hash">
-                      <span>#부르고뉴 #보졸레누보 <br> 
-                        #피노누아 #가메  <br>
-                        #샤블리 #고급와인</span>
+                      <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
                     </p>
                   </div>
-              </li>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card27">
-                  <div class="card_img">
+                </li>
+                <li class="swiper-slide card_slide">
+                  <div class="card_detail card26">
+                    <div class="card_img">
+                    </div>
+                    <p class="card_dec">
+                      <span> vol.26 칠레 와인의</span> <br>
+                      <span> 역사</span>
+                    </p>
+                    <p class="card_hash">
+                      <span>#칠레 #까르미네르 <br>
+                        #코스타존 #안데스산맥</span>
+                    </p>
                   </div>
-                  <p class="card_dec">
-                    <span> vol.27 프랑스의</span> <br>
-                    <span> 귀족산지, 보르도</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
-                  </p>
-                </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card26">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.26 칠레 와인의</span> <br>
-                    <span> 역사</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#칠레 #까르미네르 <br> 
-                      #코스타존 #안데스산맥</span>
-                  </p>
-                </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card28">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.28 신의 축복이</span> <br>
-                    <span> 내린 땅, 부르고 뉴</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#부르고뉴 #보졸레누보 <br> 
-                      #피노누아 #가메  <br>
-                      #샤블리 #고급와인</span>
-                  </p>
-                </div>
-              </li>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card27">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.27 프랑스의</span> <br>
-                    <span> 귀족산지, 보르도</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#보르도 #귀족산지 <br>#2대명산지 #생테밀리옹<br>#메독 #좌안 #우안</span>
-                  </p>
-                </div>
-              </li>
-              <li class="swiper-slide card_slide">
-                <div class="card_detail card26">
-                  <div class="card_img">
-                  </div>
-                  <p class="card_dec">
-                    <span> vol.26 칠레 와인의</span> <br>
-                    <span> 역사</span>
-                  </p>
-                  <p class="card_hash">
-                    <span>#칠레 #까르미네르 <br> 
-                      #코스타존 #안데스산맥</span>
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="book_con">
-          <div class="book">
-            <div class="left_book">
-              <img src="./imges/magazine_life.png"alt="라이프">
-              <p>LIFE</p>
+                </li>
+              </ul>
             </div>
-            <div class="right_book">
-              <img src="./imges/magazine_artfair.png"alt="라이프">
-              <p>ART FAIR</p>
-              <span>[2023.1월 전시] <br>
-                Genesis R</span>
+          </div>
+          <div class="book_con">
+            <div class="book">
+              <div class="left_book">
+                <img src="./imges/magazine_life.png"alt="라이프">
+                <p>LIFE</p>
+              </div>
+              <div class="right_book">
+                <img src="./imges/magazine_artfair.png"alt="라이프">
+                <p>ART FAIR</p>
+                <span>[2023.1월 전시] <br>
+                  Genesis R</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="end_banner_wrap">
-      <div class="end_banner">
-        <p>
-          <strong>PURPLEDOG</strong>
-          <span>원하는 와인을 찾아보세요!</span>
-          <a href="#"></a>
-        </p>
-        <div class="docent">
-          <img src="./imges/docent.png" alt="구독 구성품">
-          <div>
-            <input class="docent_search" type="text" placeholder=" &#128269; search">
+    <div class="end_banner_wrap">
+        <div class="end_banner mw">
+          <p>
+            <strong>PURPLEDOG</strong>
+            <span>원하는 와인을 찾아보세요!</span>
+            <a href="#"></a>
+          </p>
+          <div class="docent">
+            <img src="./imges/docent.png" alt="구독 구성품">
+            <div>
+              <input class="docent_search" type="text" placeholder=" &#128269; search">
+            </div>
           </div>
         </div>
-      </div>
-  </div>
-  <footer>
-    <div class="max_footer">
-      <div class="top_menu" >
-        <a href="#"><img class="footer_logo" src="./imges/logo_small.png" alt="logo">
-        <div class="foot_nav">
-          <a href="#">공지사항</a>
-          <a href="#">FAQ</a>
-          <a href="#">개인정보처리방침</a>
-          <a href="#">이용약관</a>
-        </div>
     </div>
-    <p>
-      (주)퍼플독 대표 : 박재정 법인등록번호 : 110111-6925824
-<br>
-사업자번호 : 215-87-92078 사업자번호(지점, 퍼플독 홍대) : 557-85-01671 통신판매업신고 : 2019-서울송파-2561
-<br>
-본사 : 서울특별시 강남구 테헤란로 521, 파르나스타워 29층 대표번호 : 02 6933-4772 ~ 3
-<br>
-운영시간(한국) 09:30 ~ 18:30 주말/공휴일 휴무
-<br><br>
-
-COPYRIGHT ⓒ Purpledog. ALL RIGHTS RESERVED.
-    </p>
-  </footer>
+    <footer>
+      <div class="max_footer mw">
+        <div class="top_menu" >
+          <a href="#"><img class="footer_logo" src="./imges/logo_small.png" alt="logo">
+          <div class="foot_nav">
+            <a href="#">공지사항</a>
+            <a href="#">FAQ</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">이용약관</a>
+          </div>
+      </div>
+      <p>
+        (주)퍼플독 대표 : 박재정 법인등록번호 : 110111-6925824
+    <br>
+    사업자번호 : 215-87-92078 사업자번호(지점, 퍼플독 홍대) : 557-85-01671 통신판매업신고 : 2019-서울송파-2561
+    <br>
+    본사 : 서울특별시 강남구 테헤란로 521, 파르나스타워 29층 대표번호 : 02 6933-4772 ~ 3
+    <br>
+    운영시간(한국) 09:30 ~ 18:30 주말/공휴일 휴무
+    <br><br>
+    
+    COPYRIGHT ⓒ Purpledog. ALL RIGHTS RESERVED.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>

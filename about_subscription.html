@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>purpledog</title>
+  <link rel="stylesheet" href="./css/my_reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/header_footer.css">
+  <link rel="stylesheet" href="./css/about_subscription.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+  <script  src="./purpledog.js" defer></script>
+</head>
+<body>
+  <header class="hd">
+    <div class="max_header">
+        <nav class="main_nav">
+          <a href="./index.html" class="logo"><img src="./imges/purpledog_logo.png" alt="logo">
+          </a>
+          <div class="gnb">
+            <!-- gnb_list -->
+          </div>
+          <div class="icon_nav">
+            <i class="fa-solid fa-magnifying-glass open_search" title="돋보기"></i>
+            <i class="fa-solid fa-bag-shopping" title="장바구니"></i>
+            <i class="fa-solid fa-user" title="내정보"></i>
+            <i class="fa-solid fa-bars open_bar" title ="bar"></i>
+          </div>
+        </nav>
+    </div>
+    <div class="search_modal_con">
+      <div class="search_modal">
+        <input class="main_search" type="text" style="color: white;" placeholder="검색어를 입력하세요.">
+        <div class="close_search"><i class="fa-solid fa-x close"></i></div>
+      </div>
+    </div>
+  </header>
+  <div class="gnb_m_con">
+    <div class="gnb_m">
+      <!-- gnb_list -->
+    </div>
+    <div class="close_bar">
+      <i class="fa-solid fa-x close"></i>
+    </div>
+  </div>
+  <div class="fix_button_con">
+    <button class="fix_button">
+      <a href="./subscription_01.html">
+        <span>정기 구독 신청하기</span>
+      </a>
+    </button>
+  </div>
+  <div class="main_banner_con">
+    <div class="main_banner mw">
+      <p class="main_banner_content">
+        <span>국내최초! 와인을 즐기는 가장 <strong>스마트</strong> 한 방법</span>
+        <span>퍼플독</span>
+        <span>정기구독 <br> 서비스</span>
+        <span>AI 시스템을 기반으로<br>
+          취향에 맞는 와인을 찾아<br>
+          집 앞까지 정기적으로<br>
+          배송해드립니다.</span>
+      </p>
+      <img class="main_banner_img" src="./imges/About_subscription/main_banner_img.png" alt="메인배너 이미지">
+    </div>
+  </div>
+  <div class="section_list">
+    <section class="checkpoint mw">
+      <h2>Check Point 01</h2>
+      <h3>독점 수입 와인</h3>
+      <div class="sec_content">
+        <span>전세계 다양한 와이너리와 독점 계약하여
+          국내에 단 한 곳! 퍼플독에서만 만날 수 있는 와인!</span>
+        <img src="./imges/About_subscription/checkpoint01.png" alt="체크포인트 1">
+      </div>
+      <span class="sec_deteil">중간 유통 과정과 마진이 생략된 합리적인 가격대의 와인을 만나보실 수 있으며 퍼플독 독점 판매로 희소성이 높습니다 <br>
+        (단, 블루 등급 이상에서는 고객님의 와인 스타일과 피드백에 따라 일부 타사수입 와인을 보내드리는 경우가 있을 수 있습니다.)</span>
+    </section>
+    <section class="mw2">
+      <div class="checkpoint2 mw">
+        <h2>Check Point 02</h2>
+        <h3>고퀄리티 와인</h3>
+        <div class="sec_content">
+          <span>1차 서류심사, 2차 소믈리에 테이스팅을 통하여
+            퍼플독 품질 기준에 합격한 고품질의 와인만을 소싱합니다. </span>
+          <img src="./imges/About_subscription/checkpoint02.png" alt="체크포인트 2">
+        </div>
+        <span class="sec_deteil">중간 유통 과정과 마진이 생략된 합리적인 가격대의 와인을 만나보실 수 있으며 퍼플독 독점 판매로 희소성이 높습니다 <br>
+          (단, 블루 등급 이상에서는 고객님의 와인 스타일과 피드백에 따라 일부 타사수입 와인을 보내드리는 경우가 있을 수 있습니다.)</span>
+      </div>
+    </section>
+    <section class="checkpoint mw">
+      <h2>Check Point 03</h2>
+      <h3>배송비 무료 정책</h3>
+      <div class="sec_content">
+        <span>마진을 최소화하고 고객 만족도는 그대로!</span>
+        <img src="./imges/About_subscription/checkpoint03.png" alt="체크포인트 3">
+      </div>
+      <span class="sec_deteil">예민한 와인 특성상 보관, 포장, 배송에 대한 비용이 클 수 밖에 없습니다. <br>
+        퍼플독은 고객님들께 더욱 좋은 서비스를 제공하고 부담을 덜어드리고자 배송비를 무료로 책정하였습니다.</span>
+    </section>
+    <section class="mw2">
+      <div class="checkpoint2 mw">
+        <h2>Check Point 04</h2>
+        <h3>와인 전문 컨텐츠</h3>
+        <div class="sec_content">
+          <span>와이너리, 품종,음용 온도, 페어링, 스토리 등이
+            풍부하게 담긴 컨텐츠가 함께 배송됩니다.</span>
+          <img src="./imges/About_subscription/checkpoint04.png" alt="체크포인트 4">
+        </div>
+        <span class="sec_deteil">단순히 맛만 보고 끝나는 것이 아니라, 와인을 이해하며 즐길 수 있습니다. <br>
+          온라인을 통해 제공되는 디지털 1분 레슨 컨텐츠를 통해 와인 기초상식을 쌓을 수 있습니다. <br>
+          퍼플독 앱의 와인 도슨트와 함께 와인을 즐기면 와인에 더욱 깊이 빠져들 수 있습니다. </span>
+      </div>
+    </section>
+    <section class="checkpoint mw">
+      <h2>Check Point 05</h2>
+      <h3>구독 와인 피드백</h3>
+      <div class="sec_content">
+        <span>한번 배송으로 끝내는 것이 아니라 
+          고객 피드백 분석을 통한 양방향 서비스를 추구합니다.</span>
+        <img src="./imges/About_subscription/checkpoint05.png" alt="체크포인트 5">
+      </div>
+      <span class="sec_deteil">와인의 스타일은 정말 무궁무진합니다. 
+        그 속에서 내 취향을 빠르게 찾으려면 퍼플독과의 꾸준한 소통이 중요합니다! <br>
+        좋은 점과 싫은점을 상세하게 남겨주실수록 다음 매칭에 큰 도움이 됩니다.   </span>
+    </section>
+    <div class="end_banner_wrap">
+      <div class="end_banner mw">
+        <p>
+          <strong>PURPLEDOG</strong>
+          <span>원하는 와인을 찾아보세요!</span>
+          <a href="#"></a>
+        </p>
+        <div class="docent">
+          <img src="./imges/docent.png" alt="구독 구성품">
+          <div>
+            <input class="docent_search" type="text" placeholder=" &#128269; search">
+          </div>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <div class="max_footer mw">
+      <div class="top_menu" >
+        <a href="./index.html"><img class="footer_logo" src="./imges/logo_small.png" alt="logo">
+        <div class="foot_nav">
+          <a href="#">공지사항</a>
+          <a href="#">FAQ</a>
+          <a href="#">개인정보처리방침</a>
+          <a href="#">이용약관</a>
+        </div>
+    </div>
+    <p>
+      (주)퍼플독 대표 : 박재정 법인등록번호 : 110111-6925824
+  <br>
+  사업자번호 : 215-87-92078 사업자번호(지점, 퍼플독 홍대) : 557-85-01671 통신판매업신고 : 2019-서울송파-2561
+  <br>
+  본사 : 서울특별시 강남구 테헤란로 521, 파르나스타워 29층 대표번호 : 02 6933-4772 ~ 3
+  <br>
+  운영시간(한국) 09:30 ~ 18:30 주말/공휴일 휴무
+  <br><br>
+  
+  COPYRIGHT ⓒ Purpledog. ALL RIGHTS RESERVED.
+    </p>
+  </footer>
+</body>
+</html>
