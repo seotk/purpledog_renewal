@@ -19,6 +19,11 @@
 button {
   cursor: pointer;
 }
+.mw {
+  max-width: var(--mw);
+  margin: auto;
+  width: calc(100% - 2rem);
+}
 .hd {
   margin: auto;
   z-index: 999;

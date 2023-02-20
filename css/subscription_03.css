@@ -72,8 +72,7 @@ body {
   font-weight: 300;
 }
 .subscription_reslut span {
-  flex-grow: 1;
-  padding-top: 24px;
+  padding-top: 4px;
   text-align: center;
 }
 .wine_result {
@@ -82,6 +81,7 @@ body {
 .wine_grap {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 .wine_grap > span:nth-child(odd) {
   font-size: 24px;
@@ -139,10 +139,13 @@ body {
     font-weight: 300;
   }
   .subscription_reslut span {
-    flex-grow: 1;
-    padding-top: 16px;
+    padding-top: 8px;
     text-align: center;
+    font-size: 12px;
   }
+    .wine_grap {
+    flex-grow: 1;
+    }
   .wine_grap > span:nth-child(odd) {
     font-size: 16px;
   }
