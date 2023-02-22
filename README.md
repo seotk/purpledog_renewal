@@ -18,7 +18,7 @@
 
 김현우 [(깃허브)](https://github.com/KHW1025) - 기획
 
-오정석 [(깃허브)](https://github.com/) - 기획
+오정석 [(깃허브)](https://github.com/jeong0214) - 기획
 
 ## 사용언어(tool)
 
