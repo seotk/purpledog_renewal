@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PURPLEDOG</title>
+    <link rel="stylesheet" href="./css/my_reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/header_footer.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="./js/purpledog.js" defer></script>
+    <script src="./js/order.js" defer></script>
+  </head>
+  <body>
+    <header class="hd">
+      <div class="max_header">
+        <nav class="main_nav">
+          <a href="./index.html" class="logo"
+            ><img src="./imges/purpledog_logo.png" alt="logo" />
+          </a>
+          <div class="gnb">
+            <!-- gnb_list -->
+          </div>
+          <div class="icon_nav">
+            <i
+              class="fa-solid fa-magnifying-glass open_search"
+              title="돋보기"
+            ></i>
+            <i class="fa-solid fa-bag-shopping" title="장바구니"></i>
+            <i class="fa-solid fa-user" title="내정보"></i>
+            <i class="fa-solid fa-bars open_bar" title="bar"></i>
+          </div>
+        </nav>
+      </div>
+      <div class="search_modal_con">
+        <div class="search_modal">
+          <input
+            class="main_search"
+            type="text"
+            style="color: white"
+            placeholder="검색어를 입력하세요."
+          />
+          <div class="close_search"><i class="fa-solid fa-x close"></i></div>
+        </div>
+      </div>
+    </header>
+    <div class="gnb_m_con">
+      <div class="gnb_m">
+        <!-- gnb_list -->
+      </div>
+      <div class="close_bar">
+        <i class="fa-solid fa-x close"></i>
+      </div>
+    </div>
+    <section class="oreder_sec mw">
+      <h2>주문 정보 저장</h2>
+      <ul class="menu">
+        <li class="on">계좌이체</li>
+        <li>카드</li>
+      </ul>
+      <div>
+        <ul class="order_contents">
+          <li class="list on">
+            <div class="account_transfer">
+              <div class="name">
+                <span>이름</span>
+                <input type="text" placeholder="이름 입력" />
+              </div>
+              <div class="call">
+                <span>전화번호</span>
+                <input type="text" placeholder="전화번호 입력" />
+              </div>
+              <div class="IDcard">
+                <span>주민등록번호</span>
+                <div class="inputGroup--personalNo">
+                  <input
+                    type="text"
+                    maxlength="6"
+                    name="personal1"
+                    class="personalNo-1"
+                    placeholder="주민번호 앞자리"
+                  />
+                  -
+                  <label class="personalNo-2">
+                    <input type="text" maxlength="1" placeholder="" />
+                  </label>
+                </div>
+              </div>
+              <div class="bank">
+                <span>은행</span>
+                <input type="text" placeholder="한국은행" />
+                <input type="text" placeholder="계좌번호" />
+              </div>
+              <div class="date">
+                <span>출금일</span>
+                <div class="date_detail">
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"><span class="check">1일</span></label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"
+                      ><span class="check">10일</span></label
+                    >
+                  </p>
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"
+                      ><span class="check">20일</span></label
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="sign">
+                <span>서명</span>
+                <div class="sign_area mw">서명</div>
+              </div>
+              <div class="fix_button_con">
+                <button class="fix_button">
+                  <a href="#">
+                    <span>다음</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="list">
+            <div class="card">
+              <div class="name">
+                <span>이름</span>
+                <input type="text" placeholder="이름 입력" />
+              </div>
+              <div class="call">
+                <span>전화번호</span>
+                <input type="text" placeholder="전화번호 입력" />
+              </div>
+              <div class="IDcard">
+                <span>주민등록번호</span>
+                <div class="inputGroup--personalNo">
+                  <input
+                    type="text"
+                    maxlength="6"
+                    name="personal1"
+                    class="personalNo-1"
+                    placeholder="주민번호 앞자리"
+                  />
+                  -
+                  <label class="personalNo-2">
+                    <input type="text" maxlength="1" placeholder="" />
+                  </label>
+                </div>
+              </div>
+              <div class="card_detail">
+                <span>카드</span>
+                <input type="text" placeholder="BC카드" />
+                <div class="cardNumber">
+                  <div class="inputGroup--cardnumber">
+                    <input
+                      type="text"
+                      maxlength="4"
+                      name="card1"
+                      class="cardNo-1"
+                    />
+                    -
+                    <label class="cardNo-2">
+                      <input type="text" maxlength="4" />
+                    </label>
+                    -
+                    <label class="cardNo-3">
+                      <input type="text" maxlength="4" />
+                    </label>
+                    -
+                    <label class="cardNo-4">
+                      <input type="text" maxlength="4" />
+                    </label>
+                  </div>
+                  <span>유효기간</span>
+                  <div class="expiration">
+                    <input type="number" /><span>월</span>
+                    <input type="number" /><span>년</span>
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <span>출금일</span>
+                <div class="date_detail">
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"><span class="check">1일</span></label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"
+                      ><span class="check">10일</span></label
+                    >
+                  </p>
+                  <p>
+                    <input type="checkbox" id="checkbox" class="checkbox" />
+                    <label for="checkbox"
+                      ><span class="check">20일</span></label
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="sign">
+                <span>서명</span>
+                <div class="sign_area"></div>
+              </div>
+              <div class="fix_button_con">
+                <button class="fix_button">
+                  <a href="#">
+                    <span>다음</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="max_footer mw">
+        <div class="top_menu">
+          <a href="./index.html"
+            ><img class="footer_logo" src="./imges/logo_small.png" alt="logo"
+          /></a>
+          <div class="foot_nav">
+            <a href="#">공지사항</a>
+            <a href="#">FAQ</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">이용약관</a>
+          </div>
+        </div>
+        <p>
+          (주)퍼플독 대표 : 박재정 법인등록번호 : 110111-6925824
+          <br />
+          사업자번호 : 215-87-92078 사업자번호(지점, 퍼플독 홍대) : 557-85-01671
+          통신판매업신고 : 2019-서울송파-2561
+          <br />
+          본사 : 서울특별시 강남구 테헤란로 521, 파르나스타워 29층 대표번호 : 02
+          6933-4772 ~ 3
+          <br />
+          운영시간(한국) 09:30 ~ 18:30 주말/공휴일 휴무
+          <br /><br />
+
+          COPYRIGHT ⓒ Purpledog. ALL RIGHTS RESERVED.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -274,4 +274,7 @@ body {
     color: white;
     background-color: #45156e;
   }
+  .level_price.black {
+    font-size: 14px;
+  }
 }

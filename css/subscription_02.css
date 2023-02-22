@@ -23,7 +23,8 @@ body {
   width: calc(100% - 2rem);
 }
 
-.step, .step1 {
+.step,
+.step1 {
   padding-top: 99px;
   max-width: 50%;
   margin: auto;
@@ -34,21 +35,21 @@ body {
   align-items: center;
   text-align: center;
 }
-.step1 {
-  padding-top: 400px;
-}
-.step h2, .step1 h2  {
+.step h2,
+.step1 h2 {
   font-size: 30px;
   font-weight: 500;
 }
-.step h3, .step1 h3 {
+.step h3,
+.step1 h3 {
   font-size: 45px;
   font-weight: 500;
   padding-top: 45px;
   word-break: keep-all;
 }
-.step h5, .step1 h5 {
-  font-size: 2px;
+.step h5,
+.step1 h5 {
+  font-size: 12px;
   font-weight: 300;
   color: #c2b0e1;
   flex-grow: 1;
@@ -69,8 +70,8 @@ body {
 } */
 
 /*  ============================================================== */
-.subscription_what_con, .subscription_how_con{
-  height: 120px;
+.subscription_what_con,
+.subscription_how_con {
   margin-top: 100px;
   border-radius: 10px;
   position: relative;
@@ -85,10 +86,10 @@ body {
   height: 100px;
   margin: auto;
   margin-top: 16px;
-  background-color: white;  
+  background-color: white;
   border-radius: 10px;
 }
-.subscription_what  span {
+.subscription_what span {
   font-size: 22px;
   font-weight: 400;
   word-break: keep-all;
@@ -96,15 +97,16 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  line-height: 100px;
   margin: auto;
 }
 .subscription_how_con {
   display: flex;
   justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 80px;
-
 }
 .subscription_how {
   background-color: white;
@@ -119,6 +121,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .subscription_how span:nth-of-type(1) {
   font-size: 20px;
@@ -139,7 +142,7 @@ body {
 .subscription_prefer_list {
   padding-top: 30px;
 }
-.subscription_prefer_list  span {
+.subscription_prefer_list span {
   font-size: 20px;
   padding-left: 20px;
 }
@@ -148,7 +151,7 @@ body {
   height: 80px;
   margin: auto;
   margin-top: 16px;
-  background-color: var(--main_c3);  
+  background-color: var(--main_c3);
   border-radius: 10px;
   border: 1px solid salmon;
   box-shadow: 0px 0px 5px var(--main_c2);
@@ -158,10 +161,14 @@ body {
   line-height: 72px;
 }
 
-.subscription_how:hover, .subscription_what:hover, .subscription_prefer:hover, .subscription_how.on, .subscription_what.on, .subscription_prefer.on {
+.subscription_how:hover,
+.subscription_what:hover,
+.subscription_prefer:hover,
+.subscription_how.on,
+.subscription_what.on,
+.subscription_prefer.on {
   box-shadow: 0px 0px 5px 1px var(--main_c1);
 }
-
 
 .result_button {
   max-width: 300px;
@@ -171,7 +178,6 @@ body {
   background-color: var(--main_c2);
   transition: 0.5s;
   margin-left: calc(50% - 100px);
-
 }
 .result_button a {
   width: 100%;
@@ -185,8 +191,14 @@ body {
 }
 
 .result_button:hover {
-  background-color: var(--main_c1)
+  background-color: var(--main_c1);
 }
 .result_button:hover.result_button > a > span {
   color: white;
+}
+@media (max-width: 420px) {
+  .subscription_prefer span {
+    font-size: 14px;
+    line-height: 72px;
+  }
 }

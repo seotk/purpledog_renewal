@@ -28,8 +28,6 @@ body img {
 .wrap {
   overflow: hidden;
 }
-.hd > * {
-}
 button {
   cursor: pointer;
 }
@@ -42,8 +40,7 @@ button {
   left: 0;
   right: 0;
 }
-.main_nav > * {
-}
+
 .main_nav {
   display: flex;
   justify-content: space-between;
@@ -95,23 +92,6 @@ button {
 .gnb_list > li > a:hover .gnb_list > li {
   background-color: var(--main_c2);
 }
-/* .gnb_list > li > a:hover{
-  color: var(--main_c1);
-} */
-
-.gnb_list:hover::before {
-}
-/* .gnb_list > li > a::before {
-  content: "";
-  width: 100%;
-  height: 0;
-  background-color: white;
-  position: absolute;
-  top: 25px;
-  left: 0;
-  transition: 0.5s;
-  z-index: 0;
-} */
 
 .sub_list {
   padding-top: 55px;
@@ -207,9 +187,6 @@ button {
   padding-top: 96px;
   overflow: hidden;
   display: flex;
-}
-.main_banner_wrap > * {
-  /* border: 5px solid rebeccapurple; */
 }
 .main_banner_wrap::before {
   content: "";
@@ -341,10 +318,7 @@ button {
   display: flex;
   flex-direction: column;
 }
-.slide_banner1 {
-}
-.slide_banner1 > * {
-}
+
 /*  -====================슬라이드 배너 1 =================*/
 .slide_banner .eng {
   margin-top: 75px;
@@ -366,7 +340,7 @@ button {
   word-break: keep-all;
   width: 380px;
 }
-.slide_banner  button {
+.slide_banner button {
   margin-left: 70px;
   margin-top: 75px;
   width: 300px;
@@ -375,7 +349,7 @@ button {
   background-color: var(--main_c1);
   transition: 0.5s;
 }
-.slide_banner  button > a > span {
+.slide_banner button > a > span {
   font-size: 22px;
   font-weight: 700;
   color: white;
@@ -392,7 +366,7 @@ button {
 .slide_banner button:hover {
   background-color: white;
 }
-.slide_banner  button:hover > a > span {
+.slide_banner button:hover > a > span {
   color: var(--main_c1);
 }
 
@@ -785,8 +759,6 @@ button {
   margin-top: 140px;
   position: relative;
 }
-.review_wrap img {
-}
 .review_wrap h2 {
   padding-bottom: 50px;
 }
@@ -800,9 +772,6 @@ button {
   max-width: var(--mw);
   margin: auto;
 }
-.swiper-slide {
-}
-
 .review_slide .front {
   height: 100%;
 }
@@ -875,8 +844,6 @@ button {
 .magazine {
   position: relative;
 }
-.magazine > * {
-}
 .magazine > h2 {
   font-size: 40px;
   font-weight: 500;
@@ -905,8 +872,6 @@ button {
   padding: auto;
   position: absolute;
   top: 100px;
-}
-.card-slide {
 }
 .card_detail {
   background-color: white;
@@ -967,7 +932,7 @@ button {
 
 /*              book                  */
 .book_con {
-  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
 }
 .book {
   width: 620px;
@@ -977,8 +942,6 @@ button {
   position: absolute;
   top: -100px;
   left: -120px;
-}
-.book > * {
 }
 .book img {
   background-size: cover;
@@ -1162,9 +1125,6 @@ footer .max_footer > .top_menu > img {
 .plus:hover {
   transform: rotate(-90deg);
 }
-button:hover {
-  /* filter: invert(100%); */
-}
 @media (max-width: 1610px) {
   .wine_next,
   .wine_prev {
@@ -1243,7 +1203,7 @@ button:hover {
     display: block;
     margin-top: 300px;
   }
-  
+
   /* .slide_banner4 > span {
     right: 40%;
   } */
@@ -1328,12 +1288,7 @@ button:hover {
     margin-top: 350px;
   }
 }
-@media (max-width: 1100px) {
-  .main_banner_wrap::before, .main_banner_wrap::after {
-  }
-}
 @media (max-width: 880px) {
-  
   .gnb a {
     display: inline-block;
     font-size: 16px;
@@ -1384,9 +1339,6 @@ button:hover {
     visibility: visible;
     background-color: var(--main_c2);
   }
-
-  .gnb_list > li:hover .sub_list {
-  }
   .sub_list > li {
     /* border: 1px solid red; */
     width: 100%;
@@ -1416,7 +1368,8 @@ button:hover {
   .icon_nav {
     width: 80px;
   }
-  .main_banner_wrap::after, .main_banner_wrap::before {
+  .main_banner_wrap::after,
+  .main_banner_wrap::before {
     display: none;
   }
   .main_banner_wrap {
@@ -1509,9 +1462,9 @@ button:hover {
     margin-top: 300px;
   }
   .slide_banner_next,
-.slide_banner_prev {
-  display: none;
-}
+  .slide_banner_prev {
+    display: none;
+  }
   /* .wine_recommend_wrap {
     max-width: 600px;
     margin: auto;
@@ -1567,8 +1520,7 @@ button:hover {
   .wine_category > div {
     width: 300px;
   }
-  .mid_banner_wrap {
-  }
+
   .mid_banner {
     max-width: 600px;
     margin: auto;
@@ -1576,15 +1528,7 @@ button:hover {
   .mid_banner > img {
     width: 50%;
   }
-  /* .review_wrap {
-    max-width: 600px;
-    height: 100%;
-    margin: auto;
-    margin-top: 140px;
-    position: relative;
-  } */
   .review_deteil > .stars {
-    /* border: 1px solid black; */
     margin-top: 10%;
     font-size: small;
   }
@@ -1638,7 +1582,7 @@ button:hover {
   }
   .book_con {
     margin: auto;
-    -webkit-transform: scale(0.8) rotate(0);
+    transform: scale(0.8) rotate(0);
   }
   .book > .right_book:hover.right_book > * {
     transform: scale(1.2) rotate(0deg);
@@ -1648,9 +1592,6 @@ button:hover {
     z-index: 100;
     color: white;
   }
-  /* .end_banner_wrap {
-    height: 500px;
-  } */
   .end_banner {
     max-width: 600px;
     margin: auto;
@@ -1736,7 +1677,6 @@ button:hover {
   .wine_category > div {
     width: 380px;
     padding: 0 8px;
-    /* background-color: antiquewhite; */
   }
   .wine_category > div > strong {
     font-size: 24px;
@@ -1754,8 +1694,6 @@ button:hover {
   }
   .wine_category > div > .btn_group {
     margin: 0;
-
-    /* background-color: aquamarine; */
   }
   .btn_group > button {
     width: 150px;
@@ -1840,7 +1778,7 @@ button:hover {
   }
 
   .book_con {
-    -webkit-transform: scale(0.8) rotate(90deg);
+    transform: scale(0.8) rotate(90deg);
     margin-left: -30px;
   }
   .book {

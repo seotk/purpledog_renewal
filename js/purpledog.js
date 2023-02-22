@@ -1,9 +1,18 @@
+const $gnb_m_con = document.querySelector(".gnb_m_con");
+const $open_search = document.querySelector(".open_search");
+const $open_bar = document.querySelector(".open_bar");
+const $close_bar = document.querySelector(".close_bar");
+const $close_search = document.querySelector(".close_search");
+const $search_modal_con = document.querySelector(".search_modal_con");
+const $gnb = document.querySelector(".gnb");
+const $gnb_m = document.querySelector(".gnb_m");
+
 let $slide_banner = new Swiper(".slide_banner", {
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
@@ -15,12 +24,6 @@ let $slide_banner = new Swiper(".slide_banner", {
   loop: true,
 });
 let $wine_collection = new Swiper(".wine_collection", {
-  // centeredSlides: true,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
-  // centeredSlides: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -51,12 +54,6 @@ let $wine_collection = new Swiper(".wine_collection", {
   },
 });
 let $review_slide = new Swiper(".review_slide", {
-  // centeredSlides: true,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
-
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -90,16 +87,6 @@ let $review_card_slide = new Swiper(".card_slide_list", {
   effect: "cards",
   grabCursor: true,
 });
-
-const $gnb_m_con = document.querySelector(".gnb_m_con");
-const $open_search = document.querySelector(".open_search");
-const $open_bar = document.querySelector(".open_bar");
-const $close_bar = document.querySelector(".close_bar");
-const $close_search = document.querySelector(".close_search");
-const $search_modal_con = document.querySelector(".search_modal_con");
-
-const $gnb = document.querySelector(".gnb");
-const $gnb_m = document.querySelector(".gnb_m");
 
 const GNB = `<ul class="gnb_list">
 <li><a href=" #">정기구독</a>
@@ -137,28 +124,6 @@ const GNB = `<ul class="gnb_list">
   </ul>
 </li>
 </ul>`;
-const FOOTER = `<div class="max_footer mw">
-<div class="top_menu" >
-  <a href="./index.html"><img class="footer_logo" src="./imges/logo_small.png" alt="logo">
-  <div class="foot_nav">
-    <a href="#">공지사항</a>
-    <a href="#">FAQ</a>
-    <a href="#">개인정보처리방침</a>
-    <a href="#">이용약관</a>
-  </div>
-</div>
-<p>
-(주)퍼플독 대표 : 박재정 법인등록번호 : 110111-6925824
-<br>
-사업자번호 : 215-87-92078 사업자번호(지점, 퍼플독 홍대) : 557-85-01671 통신판매업신고 : 2019-서울송파-2561
-<br>
-본사 : 서울특별시 강남구 테헤란로 521, 파르나스타워 29층 대표번호 : 02 6933-4772 ~ 3
-<br>
-운영시간(한국) 09:30 ~ 18:30 주말/공휴일 휴무
-<br><br>
-
-COPYRIGHT ⓒ Purpledog. ALL RIGHTS RESERVED.
-</p>`;
 
 $gnb.innerHTML = GNB;
 $gnb_m.innerHTML = GNB;
