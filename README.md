@@ -1,4 +1,4 @@
-# Publishing-Projrct-PURPLEDOG_renewal
+# Publishing-Project-PURPLEDOG_renewal
 
 퍼블리싱+프론트엔드 - 와인구독서비스 웹사이트 재구성
 
