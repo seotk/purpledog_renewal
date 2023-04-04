@@ -9,6 +9,12 @@
 퍼플독이라는 와인구독서비스를 참고하여 웹사이트를 재구성 기획과 디자인, 퍼블리싱 및 구현
 
 ## 개발기간
+<div style="display:flex">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOPXr6%2Fbtr7UKbJM1a%2FOrgEZ5ykJK1d83lBvXxZOk%2Fimg.png" width="300px" height="30%" title="px(픽셀) 크기 설정" alt="purpledog"></img>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkFAo2%2Fbtr72aubIYB%2FnGSlb2UuYKfhm8g10eSjh0%2Fimg.png" width="130px" height="30%" title="px(픽셀) 크기 설정" alt="purpledog"></img>
+<div>
+
+## 개발기간
 
 2023.01.25 ~ 2023.02.23
 
@@ -23,22 +29,28 @@
 ## 사용언어(tool)
 
 #### 개발환경 (environment)
-
+<div style="display:flex">
 <img src="https://img.shields.io/badge/visual studio code-007ACC?style=for-the-badge&logo=visual studio code&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<div>
 
 #### 스타일 (style)
-
+<div style="display:flex">
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+<div>
 
 #### 개발 (development)
+<div style="display:flex">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+<div>
 
 #### 소통 (communication)
+<div style="display:flex">
 <img src="https://img.shields.io/badge/slack-4B154B?style=for-the-badge&logo=slack&logoColor=white">
 <img src="https://img.shields.io/badge/figma-524DED?style=for-the-badge&logo=figma&logoColor=white">
+<div>
 
 ## 내용정리
 
