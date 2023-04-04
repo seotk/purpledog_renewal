@@ -10,7 +10,7 @@
 
 ## 개발기간
 <div style="display:flex">
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOPXr6%2Fbtr7UKbJM1a%2FOrgEZ5ykJK1d83lBvXxZOk%2Fimg.png" width="300px" height="30%" title="px(픽셀) 크기 설정" alt="purpledog"></img>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOPXr6%2Fbtr7UKbJM1a%2FOrgEZ5ykJK1d83lBvXxZOk%2Fimg.png" width="300px" height="50%" title="px(픽셀) 크기 설정" alt="purpledog"></img>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkFAo2%2Fbtr72aubIYB%2FnGSlb2UuYKfhm8g10eSjh0%2Fimg.png" width="130px" height="30%" title="px(픽셀) 크기 설정" alt="purpledog"></img>
 <div>
 
